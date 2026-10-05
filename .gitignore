@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large Datasets & 3D NIfTI volumes
+dataset/
+
+# Slices cache (can be regenerated via preprocess.py)
+outputs/slices/
+
+# Large Model Checkpoints & raw numpy caches
+outputs/*.pth
+outputs/*.npy
+
+# IDE
+.idea/
+.vscode/
