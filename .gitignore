@@ -19,9 +19,9 @@ dataset/
 # Slices cache (can be regenerated via preprocess.py)
 outputs/slices/
 
-# Large Model Checkpoints & raw numpy caches
-outputs/*.pth
-outputs/*.npy
+# Large Model Checkpoints & archives
+*.pth
+*.zip
 
 # IDE
 .idea/
